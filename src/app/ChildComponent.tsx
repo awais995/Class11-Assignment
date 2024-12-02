@@ -1,9 +1,7 @@
 
-const ChildComponent = ({firstName, lastName, age}) => {
+const ChildComponent = ({firstName, lastName, age}:any) => {
 
     return(
-        <div className="flex justify-center items-center h-screen">
-
 
         <div className="text-center bg-blue-500 h-32 flex flex-col justify-center w-56 text-white">
             <div className="text-center">
@@ -15,7 +13,6 @@ const ChildComponent = ({firstName, lastName, age}) => {
                 <p>Last Name: {lastName}</p>
                 <p>Age: {age}</p>
             </div>
-        </div>
         </div>
     )
 }
